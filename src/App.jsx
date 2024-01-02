@@ -1,7 +1,9 @@
 import Nav from "./components/Nav"
+import CustomerReviews from "./sections/CustomerReviews"
 import Hero from "./sections/Hero"
 import PopularProducts from "./sections/PopularProducts"
 import Services from "./sections/Services"
+import SpecialOffer from "./sections/SpecialOffer"
 import SuperQuality from "./sections/SuperQuality"
 
 export default function App() {
@@ -19,6 +21,12 @@ export default function App() {
       </section>
       <section className="padding-x py-10">
         <Services/>
+      </section>
+      <section className="padding">
+        <SpecialOffer/>
+      </section>
+      <section className='bg-pale-blue padding'>
+        <CustomerReviews />
       </section>
     </main>
   )
