@@ -1,6 +1,7 @@
 import Nav from "./components/Nav"
 import Hero from "./sections/Hero"
 import PopularProducts from "./sections/PopularProducts"
+import SuperQuality from "./sections/SuperQuality"
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
         <PopularProducts/>
       </section>
       <section className="padding">
-        Super Quality
+        <SuperQuality/>
       </section>
     </main>
   )
