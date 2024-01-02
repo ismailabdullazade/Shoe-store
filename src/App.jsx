@@ -1,5 +1,6 @@
 import Nav from "./components/Nav"
 import CustomerReviews from "./sections/CustomerReviews"
+import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
 import PopularProducts from "./sections/PopularProducts"
 import Services from "./sections/Services"
@@ -31,6 +32,9 @@ export default function App() {
       </section>
       <section className='padding-x sm:py-32 py-16 w-full'>
         <Subscribe />
+      </section>
+      <section className=' bg-black padding-x padding-t pb-8'>
+        <Footer />
       </section>
     </main>
   )
